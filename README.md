@@ -12,7 +12,7 @@ The method assumes a causal structure for the data in the form of a Directed Acy
 
 This guide walks you through setting up the Python environment and utilizing `cGNF` to analyze your own dataset. For users who are new to Python, we recommend following the instructions step by step. Experienced Python users can directly `pip install cGNF` to download the libraries, and then skip to [Setting up a Dataset](#setting-up-a-dataset). 
 
-The source code for cGNF is available on [GitHub](https://github.com/JesseZhou-1/cGNF). We're here for any questions, discussions, and contributions. We are committed to responding promptly and fostering a collaborative environment.
+The source code for cGNF is available on [GitHub](https://github.com/cGNF-Dev/cGNF). We're here for any questions, discussions, and contributions. We are committed to responding promptly and fostering a collaborative environment.
 
 ---
 
