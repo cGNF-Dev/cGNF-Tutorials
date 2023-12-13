@@ -32,8 +32,8 @@ The source code for cGNF is available on [GitHub](https://github.com/cGNF-Dev/cG
    - [Estimating Conditional Average Treatment Effects (CATE)](#estimating-conditional-average-treatment-effects-cate)
    - [Estimating Natural Direct and Indirect Effects](#estimating-direct-and-indirect-effects)
    - [Estimating Path-Specific Effects](#estimating-path-specific-effects)
-   - [Estimating with Sensitivity Analysis](#estimating-with-sensitivity-analysis)
-   - [Estimating with Bootstrapping](#estimating-with-bootstrapping)
+   - [Conducting a Sensitivity Analysis](#estimating-with-sensitivity-analysis)
+   - [Constructing Confidence Intervals with the Bootstrap](#estimating-with-bootstrapping)
 
 ---
 
@@ -605,7 +605,7 @@ _Note_: for conditional path-specific effect estimates, adjust the `moderator=No
 
 ---
 
-### Estimating with Sensitivity Analysis
+### Conducting a Sensitivity Analysis
 (See **`cGNF_sensitivity.py`** for detailed implementation)
 
 Based on **`cGNF_ND(I)E.py`**, refine the DGP to simulate correlated error terms $\epsilon_A$ and $\epsilon_Y$ with $\rho_{\epsilon_A,\epsilon_Y} \approx 0.15$ and $\epsilon_M$ and $\epsilon_Y$ with $\rho_{\epsilon_M,\epsilon_Y} \approx 0.2$, induced by unobserved confounders $U_1$ and $U_2$:
@@ -651,7 +651,7 @@ stateDiagram
 
 ---
 
-### Estimating with Bootstrapping
+### Constructing Confidence Intervals with the Bootstrap
 (See **`cGNF_bootstrap.py`** for detailed implementation)
 
 Define the DGP and DAG as same as in **`cGNF_PSE.py`**.
