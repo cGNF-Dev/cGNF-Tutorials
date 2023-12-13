@@ -32,8 +32,8 @@ The source code for cGNF is available on [GitHub](https://github.com/cGNF-Dev/cG
    - [Estimating Conditional Average Treatment Effects (CATE)](#estimating-conditional-average-treatment-effects-cate)
    - [Estimating Natural Direct and Indirect Effects](#estimating-direct-and-indirect-effects)
    - [Estimating Path-Specific Effects](#estimating-path-specific-effects)
-   - [Conducting a Sensitivity Analysis](#estimating-with-sensitivity-analysis)
-   - [Constructing Confidence Intervals with the Bootstrap](#estimating-with-bootstrapping)
+   - [Conducting a Sensitivity Analysis](#conducting-a-sensitivity-analysis)
+   - [Constructing Confidence Intervals with the Bootstrap](#constructing-confidence-intervals-with-the-bootstrap)
 
 ---
 
