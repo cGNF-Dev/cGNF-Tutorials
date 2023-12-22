@@ -5,9 +5,9 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = '2'  # Setting the environment variable to choose the first GPU for CUDA to use.
 
 base_path = 'C:\\Users\\Geoffrey Wodtke\\Dropbox\\D\\projects\\causal_normalizing_flows\\programs\\cGNF_tutorials'  # Define the base path for file operations.
-folder = '_NDIE'  # Define the folder where files will be stored.
+folder = '_NDIE_snes'  # Define the folder where files will be stored.
 path = os.path.join(base_path, folder, '')  # Combines the base path and folder into a complete path.
-dataset_name = 'NDIE_20k'  # Define the name of the dataset.
+dataset_name = 'NDIE_sens_20k'  # Define the name of the dataset.
 
 if not (os.path.isdir(path)):  # Checks if a directory with the name 'path' exists.
     os.makedirs(path)  # If not, creates a new directory with this name. This is where the logs and model weights will be saved.
