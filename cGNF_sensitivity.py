@@ -24,9 +24,9 @@ U1 = np.random.normal(1, 2, obs)  # U1 affects A and Y
 U2 = np.random.normal(0, 3, obs)  # U2 affects M and Y
 
 # Create error terms incorporating effects of U1 and U2
-epsilon_A = np.random.normal(0, 1, obs) + 0.3 * U1  # Error term for A influenced by U1
-epsilon_M = np.random.logistic(0, 1, obs) + 0.3 * U2  # Error term for M influenced by U2
-epsilon_Y = np.random.laplace(0, 1, obs) + 0.25 * U1 + 0.25 * U2  # Error term for Y influenced by both U1 and U2
+epsilon_A = np.random.normal(0, 1, obs) + 0.15 * U1  # Error term for A influenced by U1
+epsilon_M = np.random.logistic(0, 1, obs) + 0.4 * U2  # Error term for M influenced by U2
+epsilon_Y = np.random.laplace(0, 1, obs) + 0.2 * U1 + 0.2 * U2  # Error term for Y influenced by both U1 and U2
 
 # Generate A, M, Y with respective error terms; expected correlations:
 # epsilon_A and epsilon_Y ~ 0.15, epsilon_M and epsilon_Y ~ 0.2
