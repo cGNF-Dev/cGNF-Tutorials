@@ -20,7 +20,7 @@ np.random.seed(2813308004) # Sets the seed for simulation.
 C = np.random.binomial(n=1, p=0.4, size=obs)
 
 # Introduce unobserved confounders U1 and U2
-U1 = np.random.normal(1, 2, obs)  # U1 affects A and Y
+U1 = np.random.normal(0, 3, obs)  # U1 affects A and Y
 U2 = np.random.normal(0, 3, obs)  # U2 affects M and Y
 
 # Create error terms incorporating effects of U1 and U2
