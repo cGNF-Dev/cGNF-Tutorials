@@ -517,7 +517,7 @@ $$
    \\
    \text{Total Direct Effect (TDE)} & = E[Y(A=1)] - E[Y(A=0, M(A=1))] \\
    \\
-   \text{Pure Indirect Effects (NID)} & = E[Y(A=0, M(A=1))] - E[Y(A=0)] \\
+   \text{Pure Indirect Effects (PID)} & = E[Y(A=0, M(A=1))] - E[Y(A=0)] \\
 \end{align*}
 $$
 
