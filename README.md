@@ -272,7 +272,7 @@ Additionally, a **`bootstrap`** function is provided to facilitate parallel exec
         n_mce_samples=50000,  #  Number of Monte Carlo draws from the trained distribution model
         treatment='X',  # Treatment variable
         cat_list=[0, 1],  # Treatment values for counterfactual outcomes
-        moderator=['C'],  # Specify to conduct moderation analysis (i.e., compute effects conditional on the supplied moderator)
+        moderator='C',  # Specify to conduct moderation analysis (i.e., compute effects conditional on the supplied moderator)
         quant_mod=4,  # If the moderator is continuous, specify the number of quantiles used to evaluate the conditional effects
         mediator=['M1', 'M2'],  # List mediators for mediation analysis (i.e., to compute direct, indirect, or path-specific effects)
         outcome='Y',   # Outcome variable
