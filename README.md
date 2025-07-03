@@ -82,13 +82,13 @@ The source code for cGNF is available on [GitHub](https://github.com/cGNF-Dev/cG
    Install the `cGNF` package:
 
      ```bash
-     pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple cGNF
+     pip install cGNF
      ```
 
    To update the package in the future:
 
      ```bash
-     pip install --upgrade --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ cGNF
+     pip install --upgrade cGNF
      ```
 
    If you need PyTorch with CUDA support:
